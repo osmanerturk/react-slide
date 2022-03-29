@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+
+
+nav > h3 , nav > h4 {
+    margin: 0;
+}
+
+nav > h4 {
+    color: #fff;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: aqua;
+}
+
+nav > img {
+    height: 30px;
+    margin-right: 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+}
+
+.main {
+    padding: 57px 27px ;
+    color: #fff;
+    background-image: url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main--title {
+    margin: 0;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+.main--facts > li {
+    margin-top: 10px;
+}
+
+.main--facts > li::marker {
+    color: aqua;
+    font-size: 1.2em;
+  } 
